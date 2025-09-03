@@ -5,19 +5,14 @@
 <pre>
   git remote add -f base https://github.com/username/project.git
   git subtree add --prefix=Placeholder base main --squash
+  git add Placeholder
+  git commit -m 'message'
+  git branch -M main
+  git push -u origin main
 </pre>
-<br/>
-
-<br/>
-git add Placeholder
-<br/>
-git commit -m 'message'
-<br/>
-git branch -M main
-<br/>
-git push -u origin main
-<br/>
 
 <!-- Pulling changes from subtree repo -->
 <h3>Pulling changes from subtree repo</h3>
-git subtree pull --prefix=Placeholder base main --squash
+<pre>
+  git subtree pull --prefix=Placeholder base main --squash
+</pre>
