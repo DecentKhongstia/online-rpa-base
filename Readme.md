@@ -2,10 +2,10 @@
 <!-- Initial adding subtree -->
 <h1>In the Child Repo</h1>
 <h3>Initial adding subtree</h3>
-<code>
+<pre>
   git remote add -f base https://github.com/username/project.git
   git subtree add --prefix=Placeholder base main --squash
-</code>
+</pre>
 <br/>
 
 <br/>
